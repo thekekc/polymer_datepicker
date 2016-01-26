@@ -24,7 +24,7 @@ class Day extends Observable {
 
   @observable bool other;
   
-  DateFormat fmt = new DateFormat("EEE");
+  static DateFormat fmt = new DateFormat("EEE");
   
   String get weekDay => fmt.format(date);
   
